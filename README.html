@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <form action="/pagina-processa-dados-do-form" method="post">
-<fieldset>
+
+x    <fieldset>
 <legend>Dados Gerais</legend>
 <label for="nome">Nome:</label>
 <input type="text" minlength="3"
@@ -12,4 +13,19 @@ id="data de nascimento">
 <label for="cpf">CPF:</label>
 <input type="cpf" minlength="11"
 id="cpf">
+</fieldset>
+
+
+<fieldset>
+<legend>Endereço</legend>
+<label for="Tipo_endereço">Tipo:</label>
+<select id="Tipo_endereço">
+<option value="">Selecione</option>
+<option value="">Rua</option>
+<option value="">Estrada</option>
+<option value="">Rodovia</option>
+<option value="">Outros</option>
+</select>
+
 </html>
+
